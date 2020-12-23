@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Home</title>
+</head>
+<body>
+	<form action="logout.jsp" method="post">
+		<div align="right">
+			<button type="submit">Logout</button>
+		</div>
+	</form>
+
+	<form action="rep_questions.jsp" method="post">
+		<br /> <br />
+		<div align="center">
+			Answer customer questions <br />
+			<button type="submit">Answer Question</button>
+		</div>
+	</form>
+
+	<form action="select_user.jsp">
+		<br /> <br />
+		<div align="center">
+			Edit account information <br /> Search by Username: <input
+				type="text" placeholder="Leave blank for all..." name="search_user">
+			<button type="submit">SEARCH</button>
+		</div>
+	</form>
+
+	<form action="select_auction.jsp">
+		<br /> <br />
+		<div align="center">
+			Edit/delete auction <br /> Search by auction ID: <input type="text"
+				placeholder="Leave blank for all..." name="search_auction">
+			<button type="submit">SEARCH</button>
+		</div>
+	</form>
+
+	<form action="select_bids.jsp">
+		<br /> <br />
+		<div align="center">
+			Edit/delete bids <br /> Search by Username: <input type="text"
+				placeholder="Leave blank for all..." name="search_bid_user">
+			<br /> Search by auction ID: <input type="text"
+				placeholder="Leave blank for all..." name="search_bid_listing">
+			<br />
+			<button type="submit">SEARCH</button>
+		</div>
+	</form>
+
+	<!-- CHANGE TO END_USER INTERFACE -->
+	<form action="home_user.html">
+		<br /> <br />
+		<div align="center">
+			End_user home page
+			<br /> <button type="submit">GO</button>
+		</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Home</title>
+</head>
+<body>
+
+	<form action="create_rep.jsp">
+		<br /> <br />
+		<div align="center">
+			Change customer representative <br /> Input Username: <input
+				type="text" placeholder="new customer rep username" name="new_rep">
+			<br />
+			<button type="submit" name="promote" value="promote">Promote
+				Status</button>
+			<button type="submit" name="promote" value="demote">Demote
+				Status</button>
+		</div>
+	</form>
+
+	<form action="total_earnings.jsp">
+		<br /> <br />
+		<div align="center">
+			Sales Report for Total Earnings <br />
+			<button type="submit">GO</button>
+		</div>
+	</form>
+
+	<form action="earnings_report.jsp">
+		<br /> <br />
+		<div align="center">
+			Earning Reports <br /> Report for specific item: <input type="text"
+				placeholder="Search by Product ID" name="pid">
+			<button type="submit" name="report" value="item">GO</button><br />
+			Report for item category: <input type="text"
+				placeholder="Search by Category" name="category">
+			<button type="submit" name="report" value="cata">GO</button></div><div align="center">CATEGORIES: tabletop_game, party_game, or video_game</div><div align="center"> 
+			Report for specific user: <input type="text"
+				placeholder="Search by Username" name="username">
+			<button type="submit" name="report" value="user">GO</button>
+		</div>
+	</form>
+
+	<form action="top_items.jsp">
+		<br /> <br />
+		<div align="center">
+			Get Top Selling Items <br /> Number of items: <input type="number"
+				placeholder="10" name="limit"><br />
+			<button type="submit" name="sort" value="profit">Profit</button>
+			<button type="submit" name="sort" value="quantity">Quantity
+				Sold</button>
+		</div>
+	</form>
+
+	<form action="top_buyers.jsp">
+		<br /> <br />
+		<div align="center">
+			Get Top Buyers <br /> Number of items: <input type="number"
+				placeholder="10" name="limit"><br />
+			<button type="submit" name="sort" value="profit">Profit</button>
+			<button type="submit" name="sort" value="quantity">Quantity
+				Sold</button>
+		</div>
+	</form>
+
+	<!-- CHANGE TO CUSTOMER REP HOME -->
+	<form action="home_rep.html">
+		<br /> <br />
+		<div align="center">
+			Customer representative home page <br />
+			<button type="submit">GO</button>
+		</div>
+	</form>
+
+	<!-- CHANGE TO END_USER HOME -->
+	<form action="home_user.html">
+		<br /> <br />
+		<div align="center">
+			End_user home page <br />
+			<button type="submit">GO</button>
+		</div>
+	</form>
+</body>
+</html>
